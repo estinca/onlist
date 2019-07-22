@@ -13,7 +13,5 @@ import { MainComponent } from './main/main.component';
     SharedModule
 
   ],
-  exports: [
-  ]
 })
 export class LayoutModule { }
