@@ -1,1 +1,22 @@
-<p>header works!</p>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#">
+    <img src="../../../assets/img/OnList_final.png" alt="OnList" width="100">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse"
+  data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+  aria-expanded="false" aria-label="Toggle navigation"
+  (click)="showNavList = !showNavList">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" [ngClass]="{show: showNavList}" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Black List</a>
+      <a class="nav-item nav-link" href="#">Your Story</a>
+      <a class="nav-item nav-link" href="#">Ask me</a>
+    </div>
+  </div>
+</nav>
+
+
