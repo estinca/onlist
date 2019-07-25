@@ -1,0 +1,23 @@
+.page-not-found {
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  display: flex;
+
+  .content {
+    flex: 1 100%;
+
+    .fof {
+      font-size: 7em;
+    }
+
+    .text {
+      font-size: 3em;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+}

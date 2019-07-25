@@ -3,5 +3,12 @@
     "MAIN": {
       "header": "Călătoria noastră începe aici"
     }
-  }
+  },
+
+    "PAGES": {
+      "NOT-FOUND": {
+        "text": "Pagina nu a fost găsită",
+        "button-home": "Pagina Principală"
+      }
+    }
 }

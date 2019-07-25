@@ -1,19 +1,22 @@
-
+@import '../../../style/variables';
 
 .navbar {
 //  background-color: #e44848 !important;
-box-shadow: rgb(24, 179, 179) !important;
 font-size: 1.3em;
 
 a {
-    font-family: 'Alegreya', sans-serif !important;
-    color: #fff !important;
+    font-family: 'Alegreya', sans-serif;
+    color: $text-light;
     // text-shadow: rgb(180, 180, 180) 1px 1px;
   }
 
   .navbar-nav {
     a {
       margin-right: 2em;
+    }
+
+    a:hover {
+      color: $primary-color;
     }
   }
 

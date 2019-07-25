@@ -3,5 +3,12 @@
     "MAIN": {
       "header": "Our journey starts here"
     }
+  },
+
+  "PAGES": {
+    "NOT-FOUND": {
+      "text": "Page Not Found",
+      "button-home": "Go to Main Page"
+    }
   }
 }
