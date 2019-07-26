@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "First Post",
+    "body": "Lorem ipsum sit dolor amet ..."
+  },
+    {
+      "id": 2,
+      "title": "Second Post",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam illo veritatis optio, laboriosam necessitatibus, totam dignissimos mollitia excepturi et nobis odio molestias? Porro officiis dolor officia aspernatur laborum fugit! Dolorem!"
+    }
+]

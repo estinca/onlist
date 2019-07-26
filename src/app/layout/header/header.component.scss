@@ -1,16 +1,23 @@
 @import '../../../style/variables';
 
 .navbar {
-//  background-color: #e44848 !important;
-font-size: 1.3em;
 
-a {
+  padding-top: 20px;
+  font-size: 1.3em;
+
+  #navbarNav {
+    justify-content: flex-end;
+  }
+
+  a {
     font-family: 'Alegreya', sans-serif;
     color: $text-light;
     // text-shadow: rgb(180, 180, 180) 1px 1px;
   }
 
   .navbar-nav {
+    float: right;
+
     a {
       margin-right: 2em;
     }
@@ -18,7 +25,16 @@ a {
     a:hover {
       color: $primary-color;
     }
+
   }
+
+button {
+  background-color: rgba($text-light, 0.315);
+}
+
+button:hover {
+  background-color: rgba($text-light, 0.521);
+}
 
   .navbar-brand {
     font-size: 1.5em;

@@ -10,5 +10,11 @@
       "text": "Page Not Found",
       "button-home": "Go to Main Page"
     }
+  },
+
+  "HEADER": {
+    "NAV": {
+
+    }
   }
 }

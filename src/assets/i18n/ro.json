@@ -5,10 +5,17 @@
     }
   },
 
-    "PAGES": {
-      "NOT-FOUND": {
-        "text": "Pagina nu a fost găsită",
-        "button-home": "Pagina Principală"
-      }
+  "PAGES": {
+    "NOT-FOUND": {
+      "text": "Pagina nu a fost găsită",
+      "button-home": "Pagina Principală"
     }
+  },
+
+  "HEADER": {
+    "NAV": {
+
+    }
+  }
+
 }

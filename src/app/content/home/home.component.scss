@@ -1,0 +1,21 @@
+@import '../../../style/variables';
+
+.post {
+  width: 100%;
+  background-color: rgba($text-light, 0.2);
+  margin-bottom: 10px;
+  border: 1px solid $primary-color;
+  border-radius: 5px;
+}
+
+.post-title {
+  background-color: rgba($text-light, 0.23);
+  font-size: 1.3em;
+  padding: 3px;
+  padding-left: 7px;
+  border-bottom: 1px solid $secondary-color;
+}
+
+.post-body {
+  padding: 10px;
+}

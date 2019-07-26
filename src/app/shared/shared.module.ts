@@ -22,6 +22,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
     )
   ],
   exports: [
+    CommonModule,
     TranslateModule,
     RouterModule
   ]
